@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Mon Mémento</title>
+  </head>
+  <body>
+    <h1 style="color:blue;">LA LIGNE DE COMMANDE</h1>
+    <p style="color:green;">afficher manuel commande ls
+    man ls </br> <p>
+    <p style="color:green;">Afficher contenu du dossier courant</br>
+    ls </br> <p>
+    Afficher contenu du dossier courant avec fichiers cachés</br>
+    ls -a </br>
+    Afficher contenu dossier courant version longue sans fichiers cachés</br>
+    ls -l </br>
+    Afficher contenu dossier courant version longue avec fichiers cachés</br>
+    ls -al </br>
+    Afficher le chemin du dossier courant</br>
+    pwd </br>
+    Se déplacer dossier documents</br>
+    cd /nom de fichiers </br>
+    Afficher le contenu du dossier</br>
+    ls dossier </br> </p>
+
+    <h2 style="color:blue;">Partie 2 METTRE A JOUR LES PAQUETS</h2>
+    <P> Se mettre en superutilisateur</br>
+      sudo -i (m'amène dans un nouveau dossier)</br>
+      sudo -s (reste dans le dossier actuel)</br>
+    Mettre à jour la liste des paquets</br>
+    apt update</br>
+    Mettre à jour les paquets</br>
+    apt-get upgrade</br>
+    Trouver tous les paquets contenant le mot XML</br>
+    apt search xml</br>
+    Installer el paquet git</br>
+    apt install git</br>
+    Télécharger le .deb à https://atom.io/, avec la ligne de commande, se déplacer dans Téléchargement et lancer l'application du .deb</br>
+    dpkg -i atom-amd64.deb</br> </P>
+
+    <h3 style="color:blue;">Partie 3 : CREATION DOSSIER - FICHIERS</h3>
+      Créer un dossier website dans le dossier documents</br>
+      cd Documents/mkdir website</br>
+      Créer un dossier et un sous dossier en une seule ligne dans le dossier website</br>
+      mkdir -p Memento/assets</br>
+      Se déplacer dans le dosssier nouvellement créé et faire 3 nouveaux dossiers css, img, js</br>
+      une fois dans le dossier : mkdir css img js</br>
+      Dans le dossier Memento, créer un fichier style.css</br>
+      touch style.css</br>
+      Dans le dossier Memento, créer un fichier index.html et copier coller le texte suivant</br>
+      touch index.html</br>
+      nano index.html</br>
+      puis copier dans nano</br>
+
+    <h4 style="color:blue;"> Partie 4 :LANCEMENT APPLICATION </h4>
+      ouvrir index dans nano :</br>
+      nano index.html</br>
+      ouvrir index firefox :</br>
+      firefox index.html</br>
+      ajouter 3 titres h2 et les remplir</br>
+      <h2> 1er titre </h2>
+      <h2> 2ème titre </h2>
+      <h3> 3ème titre </h3> <br>
+      Dans Nano, remplacer les balises h2 par paragraphes p
+      voir le bas dans nano <br>
+
+        </body>
+      </html>
+
+
+  </body>
+</html>
